@@ -1,0 +1,239 @@
+{
+    margin:0;
+}
+.header-index{
+    background-color: #2B2D42;
+    color: #D90429;
+    height: 120px;
+    font-size: 20px;
+}
+.nav-index{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: #d90429;
+}
+
+.main{
+    background-color: #eef0f2;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+h1{
+    text-align: center;
+}
+.h2_index{
+    text-align: center;
+    font-size: 2rem;
+}
+.texto_index{
+    font-size: 1.3rem;
+}
+.a_index{
+    color: #EDF2F4;
+}
+table{
+    background-color: #161A1D;
+    color:whitesmoke;
+    border: 5px solid black;
+    text-align: center;
+    font-size: 1.3rem;
+}
+footer{
+    background-color:#ef233c;
+    color: white;
+    min-height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.socialmedia a{
+    display:inline-flex;
+    color: whitesmoke;
+    height: 1.8rem;
+    width: 1.8rem;
+    justify-content: center;
+    align-items: center;;
+    border-radius: 50%;
+    text-decoration: none;
+    margin: 0 1rem;
+    background-color: #2B2D42;
+    transition: transform 0.3s;
+}
+
+.socialmedia a:hover{
+    transform: scale(1.5);
+}
+
+form{
+    background-color: #EDF2F4;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: bold;
+
+}
+.header-secciones{
+    color:whitesmoke;
+    background-color: #2B2D42;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: bold;
+}
+.ul_index{
+    list-style-type: none;
+    text-align: center;
+}
+.li_index{
+    display: inline;
+    margin-right: 10px;
+}
+.opcion-trabaja{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: bold;
+}
+
+.img_Calender{
+    height: 100px;
+}
+
+.div_Holanda{
+    background-image: url(../multimedia/Holanda.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 650px;
+    background-position: center;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.div_Italia{
+    background-image: url(../multimedia/Italia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 650px;
+    background-position: center;
+    float: right;
+    margin-bottom: 20px;
+}
+.div_Rusia{
+    background-image: url(../multimedia/Rusia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 650px;
+    background-position: center;
+    float: left;
+    margin-bottom: 20px;
+}
+.div_Turquia{
+    background-image: url(../multimedia/Turquía.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 650px;
+    background-position: center;
+    float: right;
+    margin-bottom: 20px;
+}
+.div_Japon{
+    background-image: url(../multimedia/Japon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 650px;
+    background-position: center;
+    float: left; 
+    margin-bottom: 20px;
+}
+.div_EEUU{
+    background-image: url(../multimedia/EEUU.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 650px;
+    background-position: center;
+    float: right; 
+    margin-bottom: 20px;
+}
+.body-secciones{
+    background-color: #8da9c4;
+}
+.text-calender{
+    background-color: black;
+    color: whitesmoke;
+    width: 100px;
+    text-align: center;
+}
+
+.img_Equipos{
+    height: 200px;
+    width: 700px;
+}
+.texto_Equipos{
+    text-align: center;
+}
+
+.h2_Equipos{
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.div_Equipos{
+    border: 0.5px solid black;
+    margin-right: 4%;
+    background-color: whitesmoke;
+    width: auto;
+    height: auto;
+    float: right;
+    position: relative;
+    top: 50px;
+    border-radius: 1rem;
+}
+.grid-container{
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 20% 20% 20% 20% 20%;  
+}
+
+.grid-piloto{
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 50% 30%;
+    border-radius: 1rem;
+    height: 30rem;
+    margin: 0.5rem;
+}
+.grid-nombre{
+    font-family: 'Bangers', cursive;
+    font-size: 3rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid-imagen{
+    display: flex;
+    justify-content: center;  
+}
+.zoom{
+    transition: transform .5s
+}
+.zoom:hover{
+    transform: scale(1.5);
+}
+.grid-descripcion{ 
+    font-size: 1rem;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 25% 25% 25% 25%;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
