@@ -1,4 +1,6 @@
-
+*{
+    margin: 0;
+}
 .header-index{
     background-color: #2B2D42;
     color: #D90429;
@@ -92,67 +94,65 @@ form{
     height: 100px;
 }
 
-.div_Holanda{
-    background-image: url(../multimedia/Holanda.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 300px;
-    width: 650px;
-    background-position: center;
-    float: left;
-    margin-bottom: 20px;
+.grid-calendario{
+    display: grid;
+    grid-template-columns: 50% 50%; 
+    grid-template-rows: 25% 25% 25% 25%; 
+    margin-top: 1rem;
+}
+.grid-circuito{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 7% 50% 10% 33%;
+    border: 1px solid black;
+    border-radius: 0.3rem;
+    margin: 0.2rem;
 }
 
-.div_Italia{
-    background-image: url(../multimedia/Italia.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 300px;
-    width: 650px;
-    background-position: center;
-    float: right;
-    margin-bottom: 20px;
+.fecha{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.div_Rusia{
-    background-image: url(../multimedia/Rusia.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 300px;
-    width: 650px;
-    background-position: center;
-    float: left;
-    margin-bottom: 20px;
+
+.grid-pais{
+    font-size: 1rem;
+    text-align: center;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: whitesmoke;
 }
-.div_Turquia{
-    background-image: url(../multimedia/Turquía.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 300px;
-    width: 650px;
-    background-position: center;
-    float: right;
-    margin-bottom: 20px;
+gird-img-calendario{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin: 0.5rem; 
 }
-.div_Japon{
-    background-image: url(../multimedia/Japon.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 300px;
-    width: 650px;
-    background-position: center;
-    float: left; 
-    margin-bottom: 20px;
+   
+.img_calender{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
 }
-.div_EEUU{
-    background-image: url(../multimedia/EEUU.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 300px;
-    width: 650px;
-    background-position: center;
-    float: right; 
-    margin-bottom: 20px;
+
+.texto{
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline;
 }
+
+
 .body-secciones{
     background-color: #8da9c4;
 }
