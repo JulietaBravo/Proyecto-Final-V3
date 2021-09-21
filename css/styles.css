@@ -1,11 +1,12 @@
 *{
     margin: 0;
 }
-.header-index{
+.header{
     background-color: #2B2D42;
     color: #D90429;
     height: 120px;
     font-size: 20px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
 }
 .nav-index{
     font-family: 'Barlow Semi Condensed', sans-serif;
@@ -16,6 +17,7 @@
 .main{
     background-color: #eef0f2;
     font-family: 'Barlow Semi Condensed', sans-serif;
+    
 }
 h1{
     text-align: center;
@@ -26,6 +28,7 @@ h1{
 }
 .texto_index{
     font-size: 1.3rem;
+    margin: 0.6rem;
 }
 .a_index{
     color: #EDF2F4;
@@ -36,6 +39,10 @@ table{
     border: 5px solid black;
     text-align: center;
     font-size: 1.3rem;
+    margin-left: 22rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    
 }
 footer{
     background-color:#ef233c;
