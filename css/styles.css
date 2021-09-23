@@ -1,26 +1,37 @@
 *{
     margin: 0;
+    box-sizing: border-box;
 }
-.header{
-    background-color: #2B2D42;
+.header-v2{
     color: #D90429;
-    height: 120px;
     font-size: 20px;
     font-family: 'Barlow Semi Condensed', sans-serif;
+
 }
 .nav-index{
     font-family: 'Barlow Semi Condensed', sans-serif;
-    background-color: #d90429;
-
+    background-color: #2B2D42;
+    color: whitesmoke;
+    display: flex;
+    width: 100%;
+}
+.navbar-alinear{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: whitesmoke; 
+    text-decoration: none;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #2B2D42 ;
+    font-size: 1.2rem;
 }
 
 .main{
     background-color: #eef0f2;
     font-family: 'Barlow Semi Condensed', sans-serif;
-    
 }
 h1{
     text-align: center;
+    font-family: 'Barlow Semi Condensed', sans-serif;
 }
 .h2_index{
     text-align: center;
@@ -76,8 +87,38 @@ form{
     background-color: #EDF2F4;
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-weight: bold;
-
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    padding: 1rem;
 }
+.div-forms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;  
+}
+
+.h1-forms{
+    text-align: center;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: #ef233c; 
+    color: whitesmoke;
+    font-size: 1.5rem;
+    margin-left: 21rem;
+    margin-right: 21rem;
+    border-radius: 1rem;
+}
+
+.espacio-botones{
+    margin-right: 1.5rem;
+}
+
+
 .header-secciones{
     color:whitesmoke;
     background-color: #2B2D42;
@@ -159,10 +200,6 @@ gird-img-calendario{
     display: inline;
 }
 
-
-.body-secciones{
-    background-color: #8da9c4;
-}
 .text-calender{
     background-color: black;
     color: whitesmoke;

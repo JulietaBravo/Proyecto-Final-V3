@@ -12,21 +12,39 @@
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@200&family=Manrope:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@200&family=Georama:wght@300&family=Manrope:wght@600&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/b1edcfa663.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
 </head>
-<header class="header">    <!-- Class para el index -->
-    <img src="../multimedia/logo-F1.png" alt="10px" width="80px">
-    <nav class="nav-index">
-    <ul class="ul_index">
-        <a href="../index.html"class="a_index"><li class="li_index">Home</li></a>
-        <a href="./equipos.html" class="a_index"><li class="li_index">Equipos</li></a>
-        <a href=".pilotos.html"  class="a_index"><li class="li_index">Pilotos</li></a>
-        <a href="./calendario.html"  class="a_index"><li class="li_index">Calendario</li></a>
-        <a href="./trabaja-con-nosotros.html"  class="a_index"><li class="li_index">Trabaja con nosotros</li></a>
-       
-    </ul>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid nav-index">
+        <a class="navbar-brand" href="./index.html"><img src="../multimedia/logo-F1.png" alt="Logo F1" alt="20px" width="100px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse navbar-alinear" id="navbarNav">
+          <ul class="navbar-nav navbar-alinear">
+            <li class="nav-item">
+              <a class="navbar-alinear" aria-current="page" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="navbar-alinear" href="./equipos.html">Equipos</a>
+            </li>
+            <li class="nav-item">
+              <a class="navbar-alinear" href="./pilotos.html">Pilotos</a>
+            </li>
+            <li class="nav-item">
+              <a class="navbar-alinear" href="./calendario.html">Calendario</a>
+            </li>
+            <li class="nav-item">
+              <a class="navbar-alinear" href="./trabaja-con-nosotros.html">Trabaja con nosotros</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
-    </header>
-<body class="body-secciones">
+  </header>
+<body class="body-secciones"> <!-- Body solo para las secciones que no son index -->
     <main class="main">
 
         <div class="grid-calendario">
@@ -179,14 +197,16 @@
         </div>
 
     </main>
-    <footer>
-        <div class="socialmedia">
-            <a href="../PROYECTO FINAL/html/Trabaja-Con-Nosotros.html" class="Mensaje"><i class="fas fa-envelope"></i></a>
-            <a href="https://twitter.com/F1" target="_blank" class="twitter"><i class="fab fa-twitter"></i></a>
-            <a href="https://www.youtube.com/c/F1" target="_blank" class="youtube"><i class="fab fa-youtube"></i></a> 
-            <a href="https://www.instagram.com/f1/" target="_blank" class="instagram"><i class="fab fa-instagram"></i></a> 
-            <a href="https://www.facebook.com/Formula1" target="_blank" class="facebook"><i class="fab fa-facebook"></i></a>
-        </div>
-    </footer>
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </body>
+<footer>
+    <div class="socialmedia">
+        <a href="../PROYECTO FINAL/html/Trabaja-Con-Nosotros.html" class="Mensaje"><i class="fas fa-envelope"></i></a>
+        <a href="https://twitter.com/F1" target="_blank" class="twitter"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.youtube.com/c/F1" target="_blank" class="youtube"><i class="fab fa-youtube"></i></a> 
+        <a href="https://www.instagram.com/f1/" target="_blank" class="instagram"><i class="fab fa-instagram"></i></a> 
+        <a href="https://www.facebook.com/Formula1" target="_blank" class="facebook"><i class="fab fa-facebook"></i></a>
+    </div>
+</footer>
 </html>

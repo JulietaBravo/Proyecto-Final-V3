@@ -12,57 +12,97 @@
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@200&family=Manrope:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@200&family=Georama:wght@300&family=Manrope:wght@600&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/b1edcfa663.js" crossorigin="anonymous"></script>
-    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 </head>
-
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid nav-index">
+        <a class="navbar-brand" href="./index.html"><img src="../multimedia/logo-F1.png" alt="Logo F1" alt="20px" width="100px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse navbar-alinear" id="navbarNav">
+          <ul class="navbar-nav navbar-alinear">
+            <li class="nav-item">
+              <a class="navbar-alinear" aria-current="page" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="navbar-alinear" href="./equipos.html">Equipos</a>
+            </li>
+            <li class="nav-item">
+              <a class="navbar-alinear" href="./pilotos.html">Pilotos</a>
+            </li>
+            <li class="nav-item">
+              <a class="navbar-alinear" href="./calendario.html">Calendario</a>
+            </li>
+            <li class="nav-item">
+              <a class="navbar-alinear" href="./trabaja-con-nosotros.html">Trabaja con nosotros</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
 <body>
-    <header class="header">    <!-- Clase para el header -->
-        <img src="../multimedia/logo-F1.png" alt="10px" width="80px">
-        <nav class="nav-index">
-        <ul class="ul_index">
-            <a href="../index.html"class="a_index"><li class="li_index">Home</li></a>
-            <a href="./equipos.html" class="a_index"><li class="li_index">Equipos</li></a>
-            <a href="./pilotos.html"  class="a_index"><li class="li_index">Pilotos</li></a>
-            <a href="./calendario.html"  class="a_index"><li class="li_index">Calendario</li></a>
-            <a href="./trabaja-con-nosotros.html"  class="a_index"><li class="li_index">Trabaja con nosotros</li></a>
-           
-        </ul>
-        </nav>
-        </header>
-        <hr>
+    <h1 class="h1-forms">Trabaja con nosotros</h1>
+    <div class="div-forms">
+
     <form action="Enviar.php" method="GET">
 
     <fieldset>
-
-    <label for="Nombre">Nombre</label>
-    <input type="text" id="nombre">
-    <br><br>
-    <label for="Apellido">Apellido</label>
-    <input type="text" name="" id="Apellido">
-    <br><br>
-    <label for="email">email</label>
-    <input type="email" id="email">
-    <br><br>
-    <input type="radio" name="Sexo">Hombre
-    <input type="radio" name="Sexo">Mujer
-    <br><br>
-    <input type="checkbox" name="Acepta" id="Acepta">Acepta términos y condiciones
-    <br><br>
-    <label for="Selection"></label>
-    <select name="Nacionalidad" id="Nacionalidad" class="opcion-trabaja">
+        <div class="input-group">
+            <span class="input-group-text">Nombre y apellido</span>
+            <input type="text" aria-label="First name" class="form-control">
+            <input type="text" aria-label="Last name" class="form-control">
+          </div>
+          <br>
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Dirección de Email</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">No compartiremos con nadie tu email</div>
+      </div>
+    
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+        <label class="form-check-label" for="flexRadioDefault1">
+          Masculino
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+        <label class="form-check-label" for="flexRadioDefault2">
+          Femenino
+        </label>
+      </div>
+     
+    <br>
+    <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+        <label class="form-check-label" for="flexSwitchCheckDefault">Acepto los términos y condiciones</label>
+      </div>
+    <br>
+    <select class="form-select" aria-label="Default select example">
+        <option selected>Seleccione una opción</option>
+        <option value="Alemania">Alemania</option>
         <option value="Argentina">Argentina</option>
-        <option value="España">España</option>
-        <option value="Italia" selected>Italia</option>
         <option value="Bélgica">Bélgica</option>
-    </select>
-    <br><br>
-    <p class="opcion-trabaja">Adjuntar CV</p>
-    <input type="file" name="CV" id="CV" class="opcion-trabaja">
-    <br><br>
-    <input type="submit" value="Enviar" class="opcion-trabaja">
-    <input type="reset" value="Limpiar" class="opcion-trabaja">
+        <option value="3">España</option>
+        <option value="3">Francia</option>
+        <option value="3">Italia</option>
+        <option value="3">Países Bajos</option>
+      </select>
+    <br>
+    <div class="mb-3">
+        <label for="formFile" class="form-label">Adjuntar CV</label>
+        <input class="form-control" type="file" id="formFile">
+      </div>
+      <br>
+    <button type="button" class="btn btn-primary btn-sm espacio-botones">Enviar</button>
+    <button type="button" class="btn btn-secondary btn-sm espacio-botones ">Limpiar</button>
 </fieldset>
 </form>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </body>
 <footer>
     <div class="socialmedia">
