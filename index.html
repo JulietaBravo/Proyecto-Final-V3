@@ -48,23 +48,44 @@
 <body>
    
 <main class="main">  
-   <img src="./multimedia/Portada.jpg" alt="Foto Inicio" width="1350px">
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel"> <!-- Carrusel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./multimedia/Portada.jpg" class="d-block w-100" alt="Imagen F1" height="650rem" width="100rem">
+      </div>
+      <div class="carousel-item">
+        <img src="./multimedia/Carrusell.jpg" class="d-block w-100" alt="Imagen F1" height="650rem" width="100rem">
+      </div>
+      <div class="carousel-item">
+        <img src="./multimedia/verstappen-index.jpg" class="d-block w-100" alt="Imagen Verstappen" height="650rem" width="100rem">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
     <section> <!-- Section Principal -->
     <h2 class="h2_index">Campeonato mundial de Fórmula 1</h2>
-        <div class="texto_index">
+        <div class="texto_index shadow-lg p-3 mb-5 bg-body rounded">
             <p>El Campeonato Mundial de Fórmula 1 de la FIA, más conocida como Fórmula Uno, Fórmula 1 o F1, es la principal competición de automovilismo internacional y campeonato de deportes de motor más popular y prestigioso del mundo. La entidad que la dirige es la Federación Internacional del Automóvil.</p>
             <p>Cada carrera se le denomina Gran Premio y el torneo que las agrupa se denomina Campeonato Mundial de Fórmula 1. La mayoría de los circuitos de carreras donde se celebran los Grandes Premios son autódromos, aunque también se utilizan circuitos callejeros y anteriormente se utilizaron circuitos ruteros. A su vez, los automóviles utilizados son monoplazas con la última tecnología disponible, siempre limitadas por un reglamento técnico; algunas mejoras que fueron desarrolladas en la Fórmula 1 terminaron siendo utilizadas en automóviles comerciales, como el freno de disco.</p>
             <p>El inicio de la Fórmula 1 moderna se remonta al año 1950, en el que participaron escuderías como Ferrari, Alfa Romeo y Maserati. Algunas fueron reemplazadas por otras nuevas como McLaren, Williams, Red Bull y otras que volvieron como Mercedes que se han alzado varias veces con el Campeonato Mundial de Constructores. Por su parte, los pilotos deben contar con la superlicencia de la FIA para competir, que se obtiene por los resultados en otros campeonatos.</p>
         </div>  
     </section>
 
-
-    <section>
-        <h2 class="h2_index">Nuestros Podcast</h2>
-        <p class="texto_index">Presentamos historias contadas por los propios pilotos, relatores, ex campeones y miembros actuales de la F1.</p>
+    <h2 class="h2_index">Nuestros Podcast</h2>
+      <section class="texto_index shadow-lg p-3 mb-5 bg-body rounded">
+        
+        <p class="texto_index" >Presentamos historias contadas por los propios pilotos, relatores, ex campeones y miembros actuales de la F1.</p>
         <iframe src="https://open.spotify.com/embed/show/5Eykzvy6TBAuSLOlqNDSga" width="100%" height="280"  allowtransparency="true" allow="encrypted-media"></iframe>
-    </section>
-
+      </section>
+    
+    
     <section> <!-- Entradas -->
         <h2 class="h2_index">Precio de Entradas</h2>
         <table border="1" width="600" align="center">

@@ -36,10 +36,17 @@ h1{
 .h2_index{
     text-align: center;
     font-size: 2rem;
+    background-color: black;
+    color: whitesmoke;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
 }
 .texto_index{
     font-size: 1.3rem;
     margin: 0.6rem;
+    border-radius: 1rem;
 }
 .a_index{
     color: #EDF2F4;
@@ -53,7 +60,6 @@ table{
     margin-left: 22rem;
     margin-bottom: 1rem;
     margin-top: 1rem;
-    
 }
 footer{
     background-color:#ef233c;
@@ -61,8 +67,7 @@ footer{
     min-height: 2rem;
     display: flex;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center;    
 }
 
 .socialmedia a{
