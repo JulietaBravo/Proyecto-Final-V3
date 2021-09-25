@@ -134,7 +134,7 @@ form{
         background-color: #EDF2F4;
         font-family: 'Barlow Semi Condensed', sans-serif;
         font-weight: bold;
-        width: 80%;
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -147,7 +147,7 @@ form{
     .h1-forms{
         text-align: center;
         background-color: #ef233c;
-        color: black; 
+        color: whitesmoke;
         font-size: 1rem;
         margin-left: 2rem;
         margin-right: 2rem;
@@ -161,7 +161,6 @@ form{
         align-items: center;
         justify-content: center;    
     }
-   
 
 }
 
