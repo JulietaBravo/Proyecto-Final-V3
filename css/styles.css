@@ -101,6 +101,7 @@ form{
     margin: 0.5rem;
     padding: 1rem;
 }
+
 .div-forms{
     display: flex;
     justify-content: center;
@@ -121,6 +122,47 @@ form{
 
 .espacio-botones{
     margin-right: 1.5rem;
+}
+
+@media(max-width: 320px){
+    *{
+        font-family: 'Barlow Semi Condensed', sans-serif;
+        box-sizing: border-box;
+        margin: 0;
+    }
+    form{
+        background-color: #EDF2F4;
+        font-family: 'Barlow Semi Condensed', sans-serif;
+        font-weight: bold;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+        border-radius: 1rem;
+        margin: 0.5rem;
+        padding: 1rem;
+    }
+  
+    .h1-forms{
+        text-align: center;
+        background-color: #ef233c;
+        color: black; 
+        font-size: 1rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        border-radius: 0.5rem;
+    }
+    footer{
+        background-color:#ef233c;
+        color: white;
+        min-height: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;    
+    }
+   
+
 }
 
 
