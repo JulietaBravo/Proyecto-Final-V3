@@ -2,6 +2,20 @@
     margin: 0;
     box-sizing: border-box;
 }
+.header-secciones{
+    color:whitesmoke;
+    background-color: #2B2D42;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: bold;
+}
+.ul_index{
+    list-style-type: none;
+    text-align: center;
+}
+.li_index{
+    display: inline;
+    margin-right: 10px;
+}
 .header-v2{
     color: #D90429;
     font-size: 20px;
@@ -43,51 +57,6 @@ h1{
     margin-top: 2rem;
     border-radius: 1rem;
 }
-.texto_index{
-    font-size: 1.3rem;
-    margin: 0.6rem;
-    border-radius: 1rem;
-}
-.a_index{
-    color: #EDF2F4;
-}
-table{
-    background-color: #161A1D;
-    color:whitesmoke;
-    border: 5px solid black;
-    text-align: center;
-    font-size: 1.3rem;
-    margin-left: 22rem;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-}
-footer{
-    background-color:#ef233c;
-    color: white;
-    min-height: 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;    
-}
-
-.socialmedia a{
-    display:inline-flex;
-    color: whitesmoke;
-    height: 1.8rem;
-    width: 1.8rem;
-    justify-content: center;
-    align-items: center;;
-    border-radius: 50%;
-    text-decoration: none;
-    margin: 0 1rem;
-    background-color: #2B2D42;
-    transition: transform 0.3s;
-}
-
-.socialmedia a:hover{
-    transform: scale(1.5);
-}
-
 form{
     background-color: #EDF2F4;
     font-family: 'Barlow Semi Condensed', sans-serif;
@@ -163,13 +132,34 @@ form{
     }
 
 }
+.opcion-trabaja{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: bold;
+}
 
+footer{
+    background-color:#ef233c;
+    color: white;
+    min-height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
 
+.socialmedia a{
+    display:inline-flex;
+    color: whitesmoke;
+    height: 1.8rem;
+    width: 1.8rem;
+    justify-content: center;
+    align-items: center;;
+    border-radius: 50%;
+    text-decoration: none;
+    margin: 0 1rem;
+    background-color: #2B2D42;
+    transition: transform 0.3s;
+}
 
-
-
-
-
-
-
-
+.socialmedia a:hover{
+    transform: scale(1.5);
+}

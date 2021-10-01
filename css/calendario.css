@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.header-v2{
+    color: #D90429;
+    font-size: 20px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+
+}
+.nav-index{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: #2B2D42;
+    color: whitesmoke;
+    display: flex;
+    width: 100%;
+}
+.navbar-alinear{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: whitesmoke; 
+    text-decoration: none;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #2B2D42 ;
+    font-size: 1.2rem;
+}
+.main{
+    background-color: #eef0f2;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+h1{
+    text-align: center;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+footer{
+    background-color:#ef233c;
+    color: white;
+    min-height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.socialmedia a{
+    display:inline-flex;
+    color: whitesmoke;
+    height: 1.8rem;
+    width: 1.8rem;
+    justify-content: center;
+    align-items: center;;
+    border-radius: 50%;
+    text-decoration: none;
+    margin: 0 1rem;
+    background-color: #2B2D42;
+    transition: transform 0.3s;
+}
+
+.socialmedia a:hover{
+    transform: scale(1.5);
+}
+.img_Calender{
+    height: 100px;
+}
+
+.grid-calendario{
+    display: grid;
+    grid-template-columns: 50% 50%; 
+    grid-template-rows: 25% 25% 25% 25%; 
+    margin-top: 1rem;
+}
+.grid-circuito{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 7% 50% 10% 33%;
+    border: 1px solid black;
+    border-radius: 0.3rem;
+    margin: 0.2rem;
+}
+
+.fecha{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-pais{
+    font-size: 1rem;
+    text-align: center;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: whitesmoke;
+}
+gird-img-calendario{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin: 0.5rem; 
+}
+   
+.img_calender{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.texto{
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline;
+}
+
+.text-calender{
+    background-color: black;
+    color: whitesmoke;
+    width: 100px;
+    text-align: center;
+}
+

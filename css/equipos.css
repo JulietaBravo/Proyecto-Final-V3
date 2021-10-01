@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.header-secciones{
+    color:whitesmoke;
+    background-color: #2B2D42;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: bold;
+}
+.ul_index{
+    list-style-type: none;
+    text-align: center;
+}
+.li_index{
+    display: inline;
+    margin-right: 10px;
+}
+.header-v2{
+    color: #D90429;
+    font-size: 20px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+
+}
+.nav-index{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: #2B2D42;
+    color: whitesmoke;
+    display: flex;
+    width: 100%;
+}
+.navbar-alinear{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: whitesmoke; 
+    text-decoration: none;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #2B2D42 ;
+    font-size: 1.2rem;
+}
+
+.main{
+    background-color: #eef0f2;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+h1{
+    text-align: center;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+.h2_index{
+    text-align: center;
+    font-size: 2rem;
+    background-color: black;
+    color: whitesmoke;
+    margin-left: 0.6rem;
+    margin-right: 0.6rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+}
+.img_Equipos{
+    height: 200px;
+    width: 700px;
+}
+.texto_Equipos{
+    text-align: center;
+}
+
+.h2_Equipos{
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.div_Equipos{
+    border: 0.5px solid black;
+    margin-right: 4%;
+    background-color: whitesmoke;
+    width: auto;
+    height: auto;
+    float: right;
+    position: relative;
+    top: 50px;
+    border-radius: 1rem;
+}
+footer{
+    background-color:#ef233c;
+    color: white;
+    min-height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.socialmedia a{
+    display:inline-flex;
+    color: whitesmoke;
+    height: 1.8rem;
+    width: 1.8rem;
+    justify-content: center;
+    align-items: center;;
+    border-radius: 50%;
+    text-decoration: none;
+    margin: 0 1rem;
+    background-color: #2B2D42;
+    transition: transform 0.3s;
+}
+
+.socialmedia a:hover{
+    transform: scale(1.5);
+}
