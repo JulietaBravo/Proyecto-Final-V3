@@ -2,6 +2,20 @@
     margin: 0;
     box-sizing: border-box;
 }
+.header-secciones{
+    color:whitesmoke;
+    background-color: #2B2D42;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: bold;
+}
+.ul_index{
+    list-style-type: none;
+    text-align: center;
+}
+.li_index{
+    display: inline;
+    margin-right: 10px;
+}
 .header-v2{
     color: #D90429;
     font-size: 20px;
