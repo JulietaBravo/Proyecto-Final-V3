@@ -56,13 +56,6 @@ form{
     border-radius: 1rem;
 }
 
-@for $i from 2 to 7 {
-    h#{$i}{
-        color:#410315*($i*10) ;
-    }
-
-}
-
 .espacio-botones{
     margin-right: 1.5rem;
 }
