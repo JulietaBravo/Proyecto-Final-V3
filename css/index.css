@@ -1,0 +1,364 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header-secciones {
+  color: whitesmoke;
+  background-color: #2B2D42;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-weight: bold;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.header-secciones .ul_index {
+  list-style-type: none;
+}
+
+.header-secciones .ul_index .li_index {
+  display: inline;
+}
+
+.nav-index {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  background-color: #2B2D42;
+  color: whitesmoke;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.nav-index .navbar-alinear {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  color: whitesmoke;
+  text-decoration: none;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  background-color: #2B2D42;
+  font-size: 1.2rem;
+}
+
+/* Traigo Header */
+.main {
+  background-color: #eef0f2;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.h2_index {
+  text-align: center;
+  font-size: 2rem;
+  background-color: black;
+  color: whitesmoke;
+  margin-left: 0.6rem;
+  margin-right: 0.6rem;
+  margin-top: 2rem;
+  border-radius: 1rem;
+}
+
+.img-index {
+  width: 100rem;
+  height: 650rem;
+}
+
+.texto_index {
+  font-size: 1.3rem;
+  margin: 0.6rem;
+  border-radius: 1rem;
+}
+
+.a_index {
+  color: #EDF2F4;
+}
+
+.div-index {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.div-index table {
+  background-color: #161A1D;
+  color: whitesmoke;
+  border: 5px solid black;
+  text-align: center;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+@media (min-width: 1px) and (max-width: 479px) {
+  /* Para pantallas mobile */
+  * {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+  }
+  .header-v2 {
+    color: #D90429;
+    font-size: 20px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+  }
+  h1 {
+    text-align: center;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+  }
+  .h2_index {
+    text-align: center;
+    font-size: 2rem;
+    background-color: black;
+    color: whitesmoke;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+  }
+  .texto_index {
+    font-size: 1rem;
+    margin: 0rem;
+    border-radius: 1rem;
+    height: auto;
+  }
+  .a_index {
+    color: #EDF2F4;
+  }
+  .div-index {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .div-index table {
+    background-color: #161A1D;
+    color: whitesmoke;
+    border: 5px solid black;
+    text-align: center;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    width: 25rem;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+  /* Para tablet */
+  * {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+  }
+  .div-index {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  .div-index table {
+    background-color: #161A1D;
+    color: whitesmoke;
+    border: 5px solid black;
+    text-align: center;
+    font-size: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    width: 45rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1023px) {
+  /* Para pantallas desktop */
+  * {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+  }
+  .div-index {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  .div-index table {
+    background-color: #161A1D;
+    color: whitesmoke;
+    border: 5px solid black;
+    text-align: center;
+    font-size: 1rem;
+    margin-left: 14rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1023px) and (min-width: 1024px) and (max-width: 1200px) {
+  /* Pantallas de mayor tamaño */
+  * {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+  }
+  table {
+    background-color: #161A1D;
+    color: whitesmoke;
+    border: 5px solid black;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-left: 18rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+}
+
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+footer {
+  background-color: #ef233c;
+  color: white;
+  min-height: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .socialmedia a {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  color: whitesmoke;
+  height: 1.8rem;
+  width: 1.8rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+  text-decoration: none;
+  margin: 0 1rem;
+  background-color: #2B2D42;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+footer .socialmedia a:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+@media (min-width: 1px) and (max-width: 479px) {
+  footer {
+    background-color: #ef233c;
+    color: white;
+    min-height: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  footer .socialmedia a:hover {
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  footer {
+    background-color: #ef233c;
+    color: white;
+    min-height: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  footer .socialmedia a:hover {
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  footer {
+    background-color: #ef233c;
+    color: white;
+    min-height: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  footer .socialmedia a:hover {
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+  }
+}
+
+/* Traigo footer */
+/*# sourceMappingURL=index.css.map */
