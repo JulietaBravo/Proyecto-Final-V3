@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import "header";
+
+
+.main{
+    background-color: #eef0f2;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+h1{
+    text-align: center;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: #ef233c;
+    color: whitesmoke;
+    border-radius: 3rem;
+
+    .h2_index{
+        text-align: center;
+        font-size: 2rem;
+        background-color: black;
+        color: whitesmoke;
+        margin-left: 0.6rem;
+        margin-right: 0.6rem;
+        margin-top: 2rem;
+        border-radius: 1rem;
+    }
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 20% 20% 20% 20% 20%;  
+
+    .grid-piloto{
+        border: 2px solid red;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 25% 50% 25%;
+        border-radius: 1rem;
+        height: 30rem;
+        margin: 0.5rem;
+        }
+    .grid-nombre{
+        font-family: 'Bangers', cursive;
+        font-size: 3rem;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-wrap: wrap;
+    }
+    .grid-imagen{
+        display: flex;
+        justify-content: center;  
+    }
+    .grid-descripcion{ 
+        font-size: 1rem;
+        font-weight: bold;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 25% 25% 25% 25%;
+        justify-content:center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+.zoom{
+    transition: transform .5s
+}
+.zoom:hover{
+    transform: scale(1.5);
+}
+
+@import "footer";
+
+@media (min-width: 1px) and (max-width: 480px){          /* Para pantallas mobile */
+    *{
+        box-sizing: border-box;
+        margin: 0;
+    }
+    .grid-container{
+        border: 2px solid black;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;  
+    }
+    .grid-piloto{
+        border: 0.5px solid red;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 10% 40% 50%;
+        border-radius: 1rem;
+        height: 10rem;
+        margin: 0.5rem;
+    }
+    .grid-nombre{
+        font-family: 'Bangers', cursive;
+        font-size: 0.9rem;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-wrap: wrap;
+    }
+    .grid-imagen{
+        display: flex;
+        justify-content: center;  
+    }
+    .zoom{
+        transition: transform .5s
+    }
+    .zoom:hover{
+        transform: scale(1.5);
+    }
+    .grid-descripcion{ 
+        font-size: 0.7rem;
+        font-weight: bold;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 25% 25% 25% 25%;
+        justify-content:center;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+}
+@media (min-width: 481px) and (max-width: 768px){ /* Para tablet */
+    *{
+        box-sizing: border-box;
+        margin: 0;
+    }
+    .grid-container{
+        border: 2px solid black;
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: 14% 14% 14% 14% 14% 14% 14%; 
+        padding-top: 1rem;
+    }
+    .grid-piloto{
+        border: 0.5px solid red;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 20% 40% 40%;
+        border-radius: 1rem;
+        height: 10rem;
+        margin: 0.5rem;
+    }
+    .grid-nombre{
+        font-family: 'Bangers', cursive;
+        font-size: 1rem;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-wrap: wrap;
+    }
+    .grid-imagen{
+        display: flex;
+        justify-content: center;  
+    }
+    .zoom{
+        transition: transform .5s
+    }
+    .zoom:hover{
+        transform: scale(1.5);
+    }
+    .grid-descripcion{ 
+        font-size: 0.7rem;
+        font-weight: bold;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 25% 25% 25% 25%;
+        justify-content:center;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+    }   
+}
+@media (min-width: 769px) and (max-width: 1024px){ /* Para pantallas desktop */
+    *{
+        box-sizing: border-box;
+        margin: 0;
+    }
+    .grid-container{
+        border: 2px solid black;
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: 14% 14% 14% 14% 14% 14% 14%; 
+        padding-top: 1rem;
+    }
+    .grid-piloto{
+        border: 0.5px solid red;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 10% 55% 35%;
+        border-radius: 1rem;
+        height: 10rem;
+        margin: 0.5rem;
+    }
+    .grid-nombre{
+        font-family: 'Bangers', cursive;
+        font-size: 1rem;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-wrap: wrap;
+    }
+    .grid-imagen{
+        display: flex;
+        justify-content: center;  
+    }
+    .zoom{
+        transition: transform .5s
+    }
+    .zoom:hover{
+        transform: scale(1.5);
+    }
+    .grid-descripcion{ 
+        font-size: 0.7rem;
+        font-weight: bold;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 25% 25% 25% 25%;
+        justify-content:center;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+    }   
+}
+@media (min-width: 1025px) and (max-width: 1200px){ /* Pantallas de mayor tamaño */
+    *{
+        box-sizing: border-box;
+        margin: 0;
+    }
+    .grid-container{
+        border: 2px solid black;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 20% 20% 20% 20% 20%; 
+    }
+    .grid-piloto{
+        border: 0.5px solid red;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 10% 45% 45%;
+        border-radius: 1rem;
+        height: 10rem;
+        margin: 0.5rem;
+    }
+    .grid-nombre{
+        font-family: 'Bangers', cursive;
+        font-size: 1rem;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-wrap: wrap;
+    }
+    .grid-imagen{
+        display: flex;
+        justify-content: center;  
+    }
+    .zoom{
+        transition: transform .5s
+    }
+    .zoom:hover{
+        transform: scale(1.5);
+    }
+    .grid-descripcion{ 
+        font-size: 0.7rem;
+        font-weight: bold;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 25% 25% 25% 25%;
+        justify-content:center;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+    }   
+}
+
