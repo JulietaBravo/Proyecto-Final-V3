@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+@import "header";
+@import "footer";
+
+main{
+    background-color: #7a8086;
+}
+h1{
+    text-align: center;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: #ef233c;
+    color: whitesmoke;
+    border-radius: 3rem;
+
+    .h2_index{
+        text-align: center;
+        font-size: 2rem;
+        background-color: black;
+        color: whitesmoke;
+        margin-left: 0.6rem;
+        margin-right: 0.6rem;
+        margin-top: 2rem;
+        border-radius: 1rem;
+    }
+}
+
+.contenedor-equipos{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+    
+    .contenedor-individual{
+        display: flex;
+        margin-bottom: 1rem;
+        padding-right: 1rem;
+        padding-top: 1rem;
+        width: 100%;
+        height: 100%;
+
+        .tarjeta{
+            background-color: whitesmoke;
+            border: 0.5px solid darkgray;
+            border-radius: 0.5rem;
+            margin-left: 1rem;
+            margin-right: 1rem;
+            height: 34rem;
+
+            .imagen-tarjeta{
+                width: 100%;
+                height:16rem;
+                border-radius: 0.5rem;
+            }
+        }
+
+        .tarjeta-cuerpo{
+            display: flex;
+            flex-direction: column;
+            
+
+            .card-title{
+                font-weight: bold;
+                text-align: center;
+                margin-top: 1rem;
+            }
+
+            .card-text{
+                margin-left: 1rem;
+                margin-right: 1rem;
+            }
+        }
+
+        
+    }
+    
+    
+}
+
+
+.card-img-top{
+    height: 18rem;
+}
+
+@media(min-width: 1px) and (max-width:426px){
+    *{
+        margin:0;
+    }
+    
+    .contenedor-equipos{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+        margin-left: 0rem;
+        margin-right: 0rem;
+
+        .contenedor-individual{
+            display: flex;
+            margin: 0rem;
+            padding: 0rem;
+            width: 100%;
+            height: 100%;
+            margin-bottom: 0.5rem;
+
+            .tarjeta{
+                background-color: whitesmoke;
+                border: 0.5px solid darkgray;
+                border-radius: 0.5rem;
+                height: 26rem;
+                font-size: 0.7rem;
+    
+                .imagen-tarjeta{
+                    width: 100%;
+                    height: 12rem;
+                    border-radius: 0.5rem;
+                }
+            }
+
+            .tarjeta-cuerpo{
+                display: flex;
+                flex-direction: column;
+                
+    
+                .card-title{
+                    font-weight: bold;
+                    text-align: center;
+                    margin-top: 0.5rem;
+                    font-size: 1rem;
+                }
+    
+                .card-text{
+                    margin-left: 1rem;
+                    margin-right: 1rem;
+                }
+            }
+        }
+           
+    }
+}
+
+@media(min-width: 426px) and (max-width:769px){
+    *{
+        margin:0;
+    }
+    
+    .contenedor-equipos{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 20% 20% 20% 20% 20%;
+        margin-left: 0rem;
+        margin-right: 0rem;
+
+        .contenedor-individual{
+            display: flex;
+            margin: 0rem;
+            padding: 0rem;
+            width: 100%;
+            height: 100%;
+            margin-bottom: 0.5rem;
+
+            .tarjeta{
+                background-color: whitesmoke;
+                border: 0.5px solid darkgray;
+                border-radius: 0.5rem;
+                height: 35rem;
+                font-size: 1rem;
+    
+                .imagen-tarjeta{
+                    width: 100%;
+                    height: 14rem;
+                    border-radius: 0.5rem;
+                }
+            }
+
+            .tarjeta-cuerpo{
+                display: flex;
+                flex-direction: column;
+                
+    
+                .card-title{
+                    font-weight: bold;
+                    text-align: center;
+                    margin-top: 0.5rem;
+                    font-size: 1rem;
+                }
+    
+                .card-text{
+                    margin-left: 1rem;
+                    margin-right: 1rem;
+                }
+            }
+        }
+           
+    }
+}
+
+@media(min-width: 769px) and (max-width:1025px){
+    *{
+        margin:0;
+    }
+    
+    .contenedor-equipos{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 20% 20% 20% 20% 20%;
+        margin-left: 0rem;
+        margin-right: 0rem;
+
+        .contenedor-individual{
+            display: flex;
+            margin: 0rem;
+            padding: 0rem;
+            width: 100%;
+            height: 100%;
+            margin-bottom: 0.5rem;
+
+            .tarjeta{
+                background-color: whitesmoke;
+                border: 0.5px solid darkgray;
+                border-radius: 0.5rem;
+                height: 35rem;
+                font-size: 1rem;
+    
+                .imagen-tarjeta{
+                    width: 100%;
+                    height: 18rem;
+                    border-radius: 0.5rem;
+                }
+            }
+
+            .tarjeta-cuerpo{
+                display: flex;
+                flex-direction: column;
+                
+    
+                .card-title{
+                    font-weight: bold;
+                    text-align: center;
+                    margin-top: 0.5rem;
+                    font-size: 1rem;
+                }
+    
+                .card-text{
+                    margin-left: 1rem;
+                    margin-right: 1rem;
+                }
+            }
+        }
+           
+    }
+}
+
+@media(min-width: 1025px) and (max-width:1441px){
+    *{
+        margin:0;
+    }
+    
+    .contenedor-equipos{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 20% 20% 20% 20% 20%;
+        margin-left: 0rem;
+        margin-right: 0rem;
+
+        .contenedor-individual{
+            display: flex;
+            margin: 0rem;
+            padding: 0rem;
+            width: 100%;
+            height: 100%;
+            margin-bottom: 0.5rem;
+
+            .tarjeta{
+                background-color: whitesmoke;
+                border: 0.5px solid darkgray;
+                border-radius: 0.5rem;
+                height: 45rem;
+                font-size: 1rem;
+    
+                .imagen-tarjeta{
+                    width: 100%;
+                    height: 22rem;
+                    border-radius: 0.5rem;
+                }
+            }
+
+            .tarjeta-cuerpo{
+                display: flex;
+                flex-direction: column;
+                
+    
+                .card-title{
+                    font-weight: bold;
+                    text-align: center;
+                    margin-top: 0.5rem;
+                    font-size: 2rem;
+                }
+    
+                .card-text{
+                    margin-left: 1rem;
+                    margin-right: 1rem;
+                    font-size: 1.2rem;
+                }
+            }
+        }
+           
+    }
+}
