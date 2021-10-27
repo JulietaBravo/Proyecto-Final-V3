@@ -12,6 +12,7 @@
 }
 
 .header-secciones {
+  /* Clase para todos los header de la página */
   color: whitesmoke;
   background-color: #a39a9a;
   font-family: 'Barlow Semi Condensed', sans-serif;
@@ -21,7 +22,6 @@
 }
 
 .header-secciones nav {
-  /* padding-bottom: 0rem; */
   padding-top: 0rem;
 }
 
@@ -34,6 +34,7 @@
 }
 
 .nav-index {
+  /* Clase para menu hamburguesa  */
   font-family: 'Barlow Semi Condensed', sans-serif;
   background-color: #2B2D42;
   color: whitesmoke;
@@ -174,6 +175,7 @@ footer .socialmedia a:hover {
 }
 
 @media (min-width: 1px) and (max-width: 479px) {
+  /* Para pantallas mobile */
   footer {
     background-color: #ef233c;
     color: white;
@@ -195,6 +197,7 @@ footer .socialmedia a:hover {
 }
 
 @media (min-width: 480px) and (max-width: 767px) {
+  /* Para tablet */
   footer {
     background-color: #ef233c;
     color: white;
@@ -216,6 +219,7 @@ footer .socialmedia a:hover {
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
+  /* Para pantallas desktop */
   footer {
     background-color: #ef233c;
     color: white;
@@ -453,6 +457,7 @@ footer .socialmedia a:hover {
 }
 
 @media (min-width: 1px) and (max-width: 479px) {
+  /* Para pantallas mobile */
   footer {
     background-color: #ef233c;
     color: white;
@@ -474,6 +479,7 @@ footer .socialmedia a:hover {
 }
 
 @media (min-width: 480px) and (max-width: 767px) {
+  /* Para tablet */
   footer {
     background-color: #ef233c;
     color: white;
@@ -495,6 +501,7 @@ footer .socialmedia a:hover {
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
+  /* Para pantallas desktop */
   footer {
     background-color: #ef233c;
     color: white;

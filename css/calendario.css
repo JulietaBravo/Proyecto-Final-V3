@@ -22,7 +22,6 @@
     color: #D90429;
     font-size: 20px;
     font-family: 'Barlow Semi Condensed', sans-serif;
-
 }
 .nav-index{
     font-family: 'Barlow Semi Condensed', sans-serif;
@@ -138,15 +137,12 @@ footer{
     display: inline;
 }
 
-
 .text-calender{
     background-color: black;
     color: whitesmoke;
     width: 100px;
     text-align: center;
 }
-
-
 
 @media (min-width: 1px) and (max-width: 479px){          /* Para pantallas mobile */
     *{ 
@@ -188,7 +184,7 @@ footer{
         background-color: black;
         color: whitesmoke;
     }
-    gird-img-calendario{
+    .gird-img-calendario{
         display: flex;
         justify-content: center; 
         align-items: center;
@@ -259,7 +255,8 @@ footer{
         background-color: black;
         color: whitesmoke;
     }
-    gird-img-calendario{
+
+    .gird-img-calendario{
         display: flex;
         justify-content: center; 
         align-items: center;
@@ -363,7 +360,7 @@ footer{
         text-align: center;
     }   
 }
-@media (min-width: 1025px) and (max-width: 1440px){ /* Para pantallas desktop */
+@media (min-width: 1025px) and (max-width: 1440px){ /* Para pantallas desktop   */
     *{
         font-family: 'Barlow Semi Condensed', sans-serif;
         box-sizing: border-box;

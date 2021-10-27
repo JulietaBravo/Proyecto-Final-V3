@@ -3,13 +3,15 @@
     box-sizing: border-box;
 }
 
-@import "header";
+@import "header"; /* Traigo header */
+@import "footer"; /* Traigo footer */
 
 
-.main{
+.main{ /* Para pantallas en general */
     background-color: #eef0f2;
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
+
 h1{
     text-align: center;
     font-family: 'Barlow Semi Condensed', sans-serif;
@@ -28,12 +30,12 @@ h1{
     }
 }
 
-.grid-container{
+.grid-container{ /* Para contenedor general */
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 20% 20% 20% 20% 20%;  
 
-    .grid-piloto{
+    .grid-piloto{ /* Contenedor de cada piloto */
         border: 2px solid red;
         display: grid;
         grid-template-columns: 100%;
@@ -42,7 +44,7 @@ h1{
         height: 30rem;
         margin: 0.5rem;
 
-        .grid-nombre{
+        .grid-nombre{ /* Contenedor de nombre */
             font-family: 'Bangers', cursive;
             font-size: 3rem;
             text-align: center;
@@ -52,11 +54,11 @@ h1{
             flex-wrap: wrap;
         }
 
-        .grid-imagen{
+        .grid-imagen{ /* Contendor de imagen */
             display: flex;
             justify-content: center;  
         }
-        .grid-descripcion{ 
+        .grid-descripcion{  /* Contenedor de descripción */
             font-size: 1rem;
             font-weight: bold;
             display: grid;
@@ -71,14 +73,16 @@ h1{
     
 }
 
-.zoom{
+/* Animación para agrandar imagen */
+
+.zoom{ 
     transition: transform .5s
 }
 .zoom:hover{
     transform: scale(1.5);
 }
 
-@import "footer";
+
 
 @media (min-width: 1px) and (max-width: 425px){          /* Para pantallas mobile */
     *{
@@ -141,7 +145,7 @@ h1{
     
    
 }
-@media (min-width: 426px) and (max-width: 768px){ /* Para tablet */
+@media (min-width: 426px) and (max-width: 768px){       /* Para tablet */
     *{
         box-sizing: border-box;
         margin: 0;
@@ -209,8 +213,8 @@ h1{
         grid-template-columns: 33% 33% 33%;
         grid-template-rows: 14% 14% 14% 14% 14% 14% 14%; 
         padding-top: 1rem;
-    }
-    .grid-piloto{
+
+        .grid-piloto{
         border: 0.5px solid red;
         display: grid;
         grid-template-columns: 100%;
@@ -218,19 +222,31 @@ h1{
         border-radius: 1rem;
         height: 10rem;
         margin: 0.5rem;
-    }
-    .grid-nombre{
-        font-family: 'Bangers', cursive;
-        font-size: 1rem;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        align-items: start;
-        flex-wrap: wrap;
-    }
-    .grid-imagen{
-        display: flex;
-        justify-content: center;  
+        }
+        .grid-nombre{
+            font-family: 'Bangers', cursive;
+            font-size: 1rem;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: start;
+            flex-wrap: wrap;
+        }
+        .grid-imagen{
+            display: flex;
+            justify-content: center;  
+        }
+        .grid-descripcion{ 
+            font-size: 0.7rem;
+            font-weight: bold;
+            display: grid;
+            grid-template-columns: 100%;
+            grid-template-rows: 25% 25% 25% 25%;
+            justify-content:center;
+            align-items: center;
+            text-align: center;
+            flex-wrap: wrap;
+        } 
     }
     .zoom{
         transition: transform .5s
@@ -238,17 +254,7 @@ h1{
     .zoom:hover{
         transform: scale(1.5);
     }
-    .grid-descripcion{ 
-        font-size: 0.7rem;
-        font-weight: bold;
-        display: grid;
-        grid-template-columns: 100%;
-        grid-template-rows: 25% 25% 25% 25%;
-        justify-content:center;
-        align-items: center;
-        text-align: center;
-        flex-wrap: wrap;
-    }   
+     
 }
 @media (min-width: 1025px) and (max-width: 1200px){ /* Pantallas de mayor tamaño */
     *{
@@ -260,28 +266,41 @@ h1{
         display: grid;
         grid-template-columns: 25% 25% 25% 25%;
         grid-template-rows: 20% 20% 20% 20% 20%; 
-    }
-    .grid-piloto{
-        border: 0.5px solid red;
-        display: grid;
-        grid-template-columns: 100%;
-        grid-template-rows: 10% 45% 45%;
-        border-radius: 1rem;
-        height: 10rem;
-        margin: 0.5rem;
-    }
-    .grid-nombre{
-        font-family: 'Bangers', cursive;
-        font-size: 1rem;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        align-items: start;
-        flex-wrap: wrap;
-    }
-    .grid-imagen{
-        display: flex;
-        justify-content: center;  
+
+        .grid-piloto{
+            border: 0.5px solid red;
+            display: grid;
+            grid-template-columns: 100%;
+            grid-template-rows: 10% 45% 45%;
+            border-radius: 1rem;
+            height: 10rem;
+            margin: 0.5rem;
+           
+            .grid-nombre{
+                font-family: 'Bangers', cursive;
+                font-size: 1rem;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: start;
+                flex-wrap: wrap;
+            }
+            .grid-imagen{
+                display: flex;
+                justify-content: center;  
+            }
+            .grid-descripcion{ 
+                font-size: 0.7rem;
+                font-weight: bold;
+                display: grid;
+                grid-template-columns: 100%;
+                grid-template-rows: 25% 25% 25% 25%;
+                justify-content:center;
+                align-items: center;
+                text-align: center;
+                flex-wrap: wrap;
+            } 
+        }
     }
     .zoom{
         transition: transform .5s
@@ -289,16 +308,6 @@ h1{
     .zoom:hover{
         transform: scale(1.5);
     }
-    .grid-descripcion{ 
-        font-size: 0.7rem;
-        font-weight: bold;
-        display: grid;
-        grid-template-columns: 100%;
-        grid-template-rows: 25% 25% 25% 25%;
-        justify-content:center;
-        align-items: center;
-        text-align: center;
-        flex-wrap: wrap;
-    }   
+      
 }
 

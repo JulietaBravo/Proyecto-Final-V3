@@ -4,16 +4,17 @@
 }
 @import "header"; /* Traigo Header */
 
+@import "footer"; /* Traigo footer */
+
 .main{
     background-color: #eef0f2;
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
+
 h1{
-    text-align: center;
-    font-family: 'Barlow Semi Condensed', sans-serif;
+    text-align: center; 
 }
 .h2_index{
-    text-align: center;
     font-size: 2rem;
     background-color: black;
     color: whitesmoke;
@@ -32,6 +33,7 @@ h1{
     font-size: 1.3rem;
     margin: 0.6rem;
     border-radius: 1rem;
+    padding-bottom: 0.2rem;
 }
 .a_index{
     color: #EDF2F4;
@@ -40,6 +42,7 @@ h1{
 .div-index{
     display: flex;
     justify-content: center;
+
     table{
         background-color: #161A1D;
         color:whitesmoke;
@@ -51,7 +54,6 @@ h1{
     }
     
 }
-
 
 
 @media (min-width: 1px) and (max-width: 479px){          /* Para pantallas mobile */
@@ -112,7 +114,7 @@ h1{
     
     
 }
-@media (min-width: 480px) and (max-width: 768px){ /* Para tablet */
+@media (min-width: 480px) and (max-width: 768px){   /* Para tablet */
     *{
         font-family: 'Barlow Semi Condensed', sans-serif;
         box-sizing: border-box;
@@ -138,7 +140,7 @@ h1{
     }
     
 }
-@media (min-width: 769px) and (max-width: 1023px){ /* Para pantallas desktop */
+@media (min-width: 769px) and (max-width: 1023px){      /* Para pantallas desktop */
     *{
         font-family: 'Barlow Semi Condensed', sans-serif;
         box-sizing: border-box;
@@ -158,7 +160,7 @@ h1{
             margin-bottom: 1rem;
             margin-top: 1rem;
         }
-    
+    }
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){ /* Pantallas de mayor tamaño */
@@ -178,6 +180,3 @@ h1{
         margin-top: 1rem;
     }
 }
-}
-
-@import "footer"; /* Traigo footer */

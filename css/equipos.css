@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   -webkit-box-sizing: border-box;
@@ -12,6 +13,7 @@
 }
 
 .header-secciones {
+  /* Clase para todos los header de la página */
   color: whitesmoke;
   background-color: #a39a9a;
   font-family: 'Barlow Semi Condensed', sans-serif;
@@ -21,7 +23,6 @@
 }
 
 .header-secciones nav {
-  /* padding-bottom: 0rem; */
   padding-top: 0rem;
 }
 
@@ -34,6 +35,7 @@
 }
 
 .nav-index {
+  /* Clase para menu hamburguesa  */
   font-family: 'Barlow Semi Condensed', sans-serif;
   background-color: #2B2D42;
   color: whitesmoke;
@@ -55,6 +57,7 @@
   font-size: 1.2rem;
 }
 
+/* traigo header */
 * {
   margin: 0;
   -webkit-box-sizing: border-box;
@@ -105,6 +108,7 @@ footer .socialmedia a:hover {
 }
 
 @media (min-width: 1px) and (max-width: 479px) {
+  /* Para pantallas mobile */
   footer {
     background-color: #ef233c;
     color: white;
@@ -126,6 +130,7 @@ footer .socialmedia a:hover {
 }
 
 @media (min-width: 480px) and (max-width: 767px) {
+  /* Para tablet */
   footer {
     background-color: #ef233c;
     color: white;
@@ -147,6 +152,7 @@ footer .socialmedia a:hover {
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
+  /* Para pantallas desktop */
   footer {
     background-color: #ef233c;
     color: white;
@@ -167,6 +173,7 @@ footer .socialmedia a:hover {
   }
 }
 
+/* traigo footer */
 main {
   background-color: #eef0f2;
 }
@@ -193,6 +200,7 @@ h1 .h2_index {
 }
 
 .contenedor-equipos {
+  /* Clase para armar el grid general de la sección */
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 50% 50%;
@@ -204,6 +212,7 @@ h1 .h2_index {
 }
 
 .contenedor-equipos .contenedor-individual {
+  /* Clase para cada equipo */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -255,6 +264,7 @@ h1 .h2_index {
 }
 
 @media (min-width: 1px) and (max-width: 426px) {
+  /* Para pantallas mobile */
   * {
     margin: 0;
   }
@@ -312,6 +322,7 @@ h1 .h2_index {
 }
 
 @media (min-width: 426px) and (max-width: 769px) {
+  /* Para pantallas tablet */
   * {
     margin: 0;
   }
@@ -369,6 +380,7 @@ h1 .h2_index {
 }
 
 @media (min-width: 769px) and (max-width: 1025px) {
+  /* Para pantallas desktop */
   * {
     margin: 0;
   }
@@ -426,6 +438,7 @@ h1 .h2_index {
 }
 
 @media (min-width: 1025px) and (max-width: 1441px) {
+  /* Para pantallas desktop L */
   * {
     margin: 0;
   }

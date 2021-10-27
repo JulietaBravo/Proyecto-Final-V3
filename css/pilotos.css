@@ -12,6 +12,7 @@
 }
 
 .header-secciones {
+  /* Clase para todos los header de la página */
   color: whitesmoke;
   background-color: #a39a9a;
   font-family: 'Barlow Semi Condensed', sans-serif;
@@ -21,7 +22,6 @@
 }
 
 .header-secciones nav {
-  /* padding-bottom: 0rem; */
   padding-top: 0rem;
 }
 
@@ -34,6 +34,7 @@
 }
 
 .nav-index {
+  /* Clase para menu hamburguesa  */
   font-family: 'Barlow Semi Condensed', sans-serif;
   background-color: #2B2D42;
   color: whitesmoke;
@@ -55,107 +56,7 @@
   font-size: 1.2rem;
 }
 
-.main {
-  background-color: #eef0f2;
-  font-family: 'Barlow Semi Condensed', sans-serif;
-}
-
-h1 {
-  text-align: center;
-  font-family: 'Barlow Semi Condensed', sans-serif;
-  background-color: #e90808;
-  color: whitesmoke;
-}
-
-h1 .h2_index {
-  text-align: center;
-  font-size: 2rem;
-  background-color: black;
-  color: whitesmoke;
-  margin-left: 0.6rem;
-  margin-right: 0.6rem;
-  margin-top: 2rem;
-  border-radius: 1rem;
-}
-
-.grid-container {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 25% 25% 25% 25%;
-      grid-template-columns: 25% 25% 25% 25%;
-  -ms-grid-rows: 20% 20% 20% 20% 20%;
-      grid-template-rows: 20% 20% 20% 20% 20%;
-}
-
-.grid-container .grid-piloto {
-  border: 2px solid red;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 100%;
-      grid-template-columns: 100%;
-  -ms-grid-rows: 25% 50% 25%;
-      grid-template-rows: 25% 50% 25%;
-  border-radius: 1rem;
-  height: 30rem;
-  margin: 0.5rem;
-}
-
-.grid-container .grid-piloto .grid-nombre {
-  font-family: 'Bangers', cursive;
-  font-size: 3rem;
-  text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: start;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.grid-container .grid-piloto .grid-imagen {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.grid-container .grid-piloto .grid-descripcion {
-  font-size: 1rem;
-  font-weight: bold;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 100%;
-      grid-template-columns: 100%;
-  -ms-grid-rows: 25% 25% 25% 25%;
-      grid-template-rows: 25% 25% 25% 25%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-}
-
-.zoom {
-  -webkit-transition: -webkit-transform .5s;
-  transition: -webkit-transform .5s;
-  transition: transform .5s;
-  transition: transform .5s, -webkit-transform .5s;
-}
-
-.zoom:hover {
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
-}
-
+/* Traigo header */
 * {
   margin: 0;
   -webkit-box-sizing: border-box;
@@ -206,6 +107,7 @@ footer .socialmedia a:hover {
 }
 
 @media (min-width: 1px) and (max-width: 479px) {
+  /* Para pantallas mobile */
   footer {
     background-color: #ef233c;
     color: white;
@@ -227,6 +129,7 @@ footer .socialmedia a:hover {
 }
 
 @media (min-width: 480px) and (max-width: 767px) {
+  /* Para tablet */
   footer {
     background-color: #ef233c;
     color: white;
@@ -248,6 +151,7 @@ footer .socialmedia a:hover {
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
+  /* Para pantallas desktop */
   footer {
     background-color: #ef233c;
     color: white;
@@ -266,6 +170,115 @@ footer .socialmedia a:hover {
     -webkit-transform: scale(1.5);
             transform: scale(1.5);
   }
+}
+
+/* Traigo footer */
+.main {
+  /* Para pantallas en general */
+  background-color: #eef0f2;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  background-color: #e90808;
+  color: whitesmoke;
+}
+
+h1 .h2_index {
+  text-align: center;
+  font-size: 2rem;
+  background-color: black;
+  color: whitesmoke;
+  margin-left: 0.6rem;
+  margin-right: 0.6rem;
+  margin-top: 2rem;
+  border-radius: 1rem;
+}
+
+.grid-container {
+  /* Para contenedor general */
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 25% 25% 25% 25%;
+      grid-template-columns: 25% 25% 25% 25%;
+  -ms-grid-rows: 20% 20% 20% 20% 20%;
+      grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+.grid-container .grid-piloto {
+  /* Contenedor de cada piloto */
+  border: 2px solid red;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+  -ms-grid-rows: 25% 50% 25%;
+      grid-template-rows: 25% 50% 25%;
+  border-radius: 1rem;
+  height: 30rem;
+  margin: 0.5rem;
+}
+
+.grid-container .grid-piloto .grid-nombre {
+  /* Contenedor de nombre */
+  font-family: 'Bangers', cursive;
+  font-size: 3rem;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.grid-container .grid-piloto .grid-imagen {
+  /* Contendor de imagen */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.grid-container .grid-piloto .grid-descripcion {
+  /* Contenedor de descripción */
+  font-size: 1rem;
+  font-weight: bold;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+  -ms-grid-rows: 25% 25% 25% 25%;
+      grid-template-rows: 25% 25% 25% 25%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+/* Animación para agrandar imagen */
+.zoom {
+  -webkit-transition: -webkit-transform .5s;
+  transition: -webkit-transform .5s;
+  transition: transform .5s;
+  transition: transform .5s, -webkit-transform .5s;
+}
+
+.zoom:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 
 @media (min-width: 1px) and (max-width: 425px) {
@@ -455,7 +468,7 @@ footer .socialmedia a:hover {
         grid-template-rows: 14% 14% 14% 14% 14% 14% 14%;
     padding-top: 1rem;
   }
-  .grid-piloto {
+  .grid-container .grid-piloto {
     border: 0.5px solid red;
     display: -ms-grid;
     display: grid;
@@ -467,7 +480,7 @@ footer .socialmedia a:hover {
     height: 10rem;
     margin: 0.5rem;
   }
-  .grid-nombre {
+  .grid-container .grid-nombre {
     font-family: 'Bangers', cursive;
     font-size: 1rem;
     text-align: center;
@@ -483,7 +496,7 @@ footer .socialmedia a:hover {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  .grid-imagen {
+  .grid-container .grid-imagen {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -491,17 +504,7 @@ footer .socialmedia a:hover {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .zoom {
-    -webkit-transition: -webkit-transform .5s;
-    transition: -webkit-transform .5s;
-    transition: transform .5s;
-    transition: transform .5s, -webkit-transform .5s;
-  }
-  .zoom:hover {
-    -webkit-transform: scale(1.5);
-            transform: scale(1.5);
-  }
-  .grid-descripcion {
+  .grid-container .grid-descripcion {
     font-size: 0.7rem;
     font-weight: bold;
     display: -ms-grid;
@@ -519,6 +522,16 @@ footer .socialmedia a:hover {
     text-align: center;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+  }
+  .zoom {
+    -webkit-transition: -webkit-transform .5s;
+    transition: -webkit-transform .5s;
+    transition: transform .5s;
+    transition: transform .5s, -webkit-transform .5s;
+  }
+  .zoom:hover {
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
   }
 }
 
@@ -538,7 +551,7 @@ footer .socialmedia a:hover {
     -ms-grid-rows: 20% 20% 20% 20% 20%;
         grid-template-rows: 20% 20% 20% 20% 20%;
   }
-  .grid-piloto {
+  .grid-container .grid-piloto {
     border: 0.5px solid red;
     display: -ms-grid;
     display: grid;
@@ -550,7 +563,7 @@ footer .socialmedia a:hover {
     height: 10rem;
     margin: 0.5rem;
   }
-  .grid-nombre {
+  .grid-container .grid-piloto .grid-nombre {
     font-family: 'Bangers', cursive;
     font-size: 1rem;
     text-align: center;
@@ -566,7 +579,7 @@ footer .socialmedia a:hover {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  .grid-imagen {
+  .grid-container .grid-piloto .grid-imagen {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -574,17 +587,7 @@ footer .socialmedia a:hover {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .zoom {
-    -webkit-transition: -webkit-transform .5s;
-    transition: -webkit-transform .5s;
-    transition: transform .5s;
-    transition: transform .5s, -webkit-transform .5s;
-  }
-  .zoom:hover {
-    -webkit-transform: scale(1.5);
-            transform: scale(1.5);
-  }
-  .grid-descripcion {
+  .grid-container .grid-piloto .grid-descripcion {
     font-size: 0.7rem;
     font-weight: bold;
     display: -ms-grid;
@@ -602,6 +605,16 @@ footer .socialmedia a:hover {
     text-align: center;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+  }
+  .zoom {
+    -webkit-transition: -webkit-transform .5s;
+    transition: -webkit-transform .5s;
+    transition: transform .5s;
+    transition: transform .5s, -webkit-transform .5s;
+  }
+  .zoom:hover {
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
   }
 }
 /*# sourceMappingURL=pilotos.css.map */
