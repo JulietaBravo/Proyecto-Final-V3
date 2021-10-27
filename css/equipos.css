@@ -287,7 +287,7 @@ h1 .h2_index {
   }
   .contenedor-equipos .contenedor-individual .tarjeta .imagen-tarjeta {
     width: 100%;
-    height: 12rem;
+    height: auto;
     border-radius: 0.5rem;
   }
   .contenedor-equipos .contenedor-individual .tarjeta-cuerpo {
