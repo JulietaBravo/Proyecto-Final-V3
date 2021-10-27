@@ -8,14 +8,16 @@
 @import "footer";
 
 main{
-    background-color: #7a8086;
+    background-color:#eef0f2;
 }
 h1{
     text-align: center;
     font-family: 'Barlow Semi Condensed', sans-serif;
-    background-color: #ef233c;
+    background-color: rgb(233, 8, 8);
+    font-size: 1rem;
     color: whitesmoke;
-    border-radius: 3rem;
+    border-radius: 0rem;
+    margin: 0rem; 
 
     .h2_index{
         text-align: center;

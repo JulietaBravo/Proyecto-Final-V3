@@ -13,11 +13,16 @@
 
 .header-secciones {
   color: whitesmoke;
-  background-color: #2B2D42;
+  background-color: #a39a9a;
   font-family: 'Barlow Semi Condensed', sans-serif;
   font-weight: bold;
-  margin-right: 10px;
   text-align: center;
+  margin-bottom: 0rem;
+}
+
+.header-secciones nav {
+  /* padding-bottom: 0rem; */
+  padding-top: 0rem;
 }
 
 .header-secciones .ul_index {
@@ -36,6 +41,7 @@
   display: -ms-flexbox;
   display: flex;
   width: 100%;
+  margin-bottom: 0rem;
 }
 
 .nav-index .navbar-alinear {
