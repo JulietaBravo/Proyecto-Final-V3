@@ -366,7 +366,7 @@ h1 .h2_index {
   }
 }
 
-@media (min-width: 426px) and (max-width: 768px) {
+@media (min-width: 425px) and (max-width: 768px) {
   /* Para tablet */
   * {
     -webkit-box-sizing: border-box;
