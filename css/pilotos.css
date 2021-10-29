@@ -389,8 +389,8 @@ h1 .h2_index {
     display: grid;
     -ms-grid-columns: 100%;
         grid-template-columns: 100%;
-    -ms-grid-rows: 20% 40% 40%;
-        grid-template-rows: 20% 40% 40%;
+    -ms-grid-rows: 10% 40% 50%;
+        grid-template-rows: 10% 40% 50%;
     border-radius: 1rem;
     height: 98%;
     margin: 0.5rem;
@@ -466,7 +466,7 @@ h1 .h2_index {
         grid-template-columns: 33% 33% 33%;
     -ms-grid-rows: 14% 14% 14% 14% 14% 14% 14%;
         grid-template-rows: 14% 14% 14% 14% 14% 14% 14%;
-    padding-top: 1rem;
+    padding-top: 0.5rem;
   }
   .grid-container .grid-piloto {
     border: 0.5px solid red;
@@ -474,15 +474,15 @@ h1 .h2_index {
     display: grid;
     -ms-grid-columns: 100%;
         grid-template-columns: 100%;
-    -ms-grid-rows: 10% 55% 35%;
-        grid-template-rows: 10% 55% 35%;
+    -ms-grid-rows: 10% 40% 50%;
+        grid-template-rows: 10% 40% 50%;
     border-radius: 1rem;
-    height: 10rem;
+    height: 98%;
     margin: 0.5rem;
   }
-  .grid-container .grid-nombre {
+  .grid-container .grid-piloto .grid-nombre {
     font-family: 'Bangers', cursive;
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-align: center;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -496,16 +496,17 @@ h1 .h2_index {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  .grid-container .grid-imagen {
+  .grid-container .grid-piloto .grid-imagen {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    width: 100%;
   }
-  .grid-container .grid-descripcion {
-    font-size: 0.7rem;
+  .grid-container .grid-piloto .grid-descripcion {
+    font-size: 1rem;
     font-weight: bold;
     display: -ms-grid;
     display: grid;
